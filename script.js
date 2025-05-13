@@ -24,7 +24,7 @@ const getMovie = async (movie) =>{
         errrorDiv.innerHTML = `  <div class="card mb-3 w-100">
                     <div class="row g-0">
                       <div class="col-md-4">
-                        <img src="https://images.pexels.com/photos/3747159/pexels-photo-3747159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid rounded-start" alt="...">
+                        <img w-100 src="https://images.pexels.com/photos/3747159/pexels-photo-3747159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid rounded-start" alt="...">
                       </div>
                       <div class="col-md-8">
                         <div class="card-body w-100 text-center d-flex flex-column justify-content-center" >
