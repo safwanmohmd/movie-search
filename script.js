@@ -15,7 +15,7 @@ const getMovie = async (movie) =>{
     try {
     div.innerHTML =""
     errrorDiv.innerHTML = ''
-    let response = await fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=16a7b1ef&t=${movie}&plot=short`)
+    let response = await fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=16a7b1ef&t=${movie}`)
     let data = await response.json()
     console.log(data);
 
